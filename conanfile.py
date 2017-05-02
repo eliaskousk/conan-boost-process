@@ -9,7 +9,7 @@ class BoostProcessConan(ConanFile):
     license = "MIT"
     author = "Boost Process Authors"
     settings = None  # header only
-    requires = "Boost/1.63.0@eliaskousk/stable"
+    requires = "Boost/1.64.0@eliaskousk/stable"
     options = {}
     default_options = []
     exports = "*"
